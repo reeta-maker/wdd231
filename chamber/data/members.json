@@ -1,0 +1,58 @@
+[
+    {
+        "name": "RULE COFFEE & ROASTERS",
+        "address": "6-1-2 Karabe, Narita, Chiba",
+        "phone": "",
+        "website": "https://rulecoffee.jp/",
+        "image": "images/business1.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Botanical & CAFE Breed",
+        "address": "987-1 Maebayashi, Narita, Chiba",
+        "phone": "0476-73-6030",
+        "website": "https://breedtaieikaen.com",
+        "image": "images/business2.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Fa-So-La",
+        "address": "Narita International Airport, Narita, Chiba",
+        "phone": "",
+        "website": "https://www.Fasola.jp/en/",
+        "image": "images/business3.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Hanko-ya-san 21 Narita",
+        "address": "Unicus Narita, Chiba",
+        "phone": "0476-20-2505",
+        "website": "https://hanko21narita.jp/",
+        "image": "images/business4.webp",
+        "membership": "2"
+    },
+    {
+        "name": "Gusto",
+        "address": "5-5 Hanazakicho, Narita, Chiba",
+        "phone": "0476-29-6160",
+        "website": "https://www.skylark.co.jp/gusto/",
+        "image": "images/business5.webp",
+        "membership": "Silver"
+    },
+    {
+        "name": "Narita Beyond",
+        "address": "5F, La Ent Narita, 816 Hanazakicho, Narita, Chiba",
+        "phone": "",
+        "website": "https://narita-beyond.jp/en/company",
+        "image": "images/business6.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "TANI FISH FARM",
+        "address": "1379 Shitakata, Narita, Chiba",
+        "phone": "0476-26-911",
+        "website": "https://www.tanikoi.com/english.html",
+        "image": "images/business7.webp",
+        "membership": "1"
+    }
+]

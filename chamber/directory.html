@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore local businesses and services in our Chamber of Commerce directory.">
+    <meta name="author" content="Reeta Pun">
+    <title>Business Directory | Chamber of Commerce</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title" content="Business Directory | Chamber of Commerce">
+    <meta property="og:description" content="Discover local businesses in our community.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/business1.webp">
+    <meta property="og:url" content="https://ritamaker.github.io/WDD231/chamber/directory.html">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Chamber of Commerce</h1>
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        </div>
+        <nav id="navigation">
+            <a href="../index.html">Home</a>
+            <a href="directory.html" class="active">Directory</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Business Directory</h2>
+
+        <div class="view-buttons">
+            <button id="grid-button" class="active">Grid View</button>
+            <button id="list-button">List View</button>
+        </div>
+
+        <section id="members-container" class="grid" aria-label="Chamber business members">
+            <p>Loading business members...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Chamber of Commerce</p>
+        <p>WDD 231 | Reeta Pun</p>
+        <p>&copy; <span id="current-year"></span> Chamber of Commerce</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/directory.js"></script>
+</body>
+
+</html>

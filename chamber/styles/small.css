@@ -1,0 +1,136 @@
+/* General page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f6f8;
+}
+
+/* Header */
+header {
+    background-color: #17365d;
+    color: white;
+    padding: 1rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: 1.4rem;
+}
+
+#menu-button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 0.4rem 0.7rem;
+    font-size: 1.3rem;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #315b88;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #17365d;
+}
+
+/* View buttons */
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.view-buttons button {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+.view-buttons button.active {
+    background-color: #17365d;
+    color: white;
+}
+
+/* Business cards */
+#members-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.member-card {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.member-card h3 {
+    color: #17365d;
+    margin-bottom: 0.5rem;
+}
+
+.member-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0.5rem auto;
+}
+
+.member-card a {
+    color: #174f8a;
+    overflow-wrap: anywhere;
+}
+
+.member-card p {
+    margin: 0.4rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.4rem 0;
+}
