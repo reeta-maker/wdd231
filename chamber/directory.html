@@ -4,33 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore local businesses and services in our Chamber of Commerce directory.">
+
+    <meta name="description"
+        content="Explore local businesses and services in our Narita Chamber of Commerce directory.">
     <meta name="author" content="Reeta Pun">
+
     <title>Business Directory | Chamber of Commerce</title>
 
+    <!-- Favicon -->
     <link rel="icon" href="favicon.ico">
+
+    <!-- CSS files -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <!-- Open Graph metadata -->
     <meta property="og:title" content="Business Directory | Chamber of Commerce">
     <meta property="og:description"
         content="Explore the Narita Chamber of Commerce business directory and discover local shops, services, restaurants, and businesses in our community.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/business1.webp">
+    <meta property="og:image" content="https://reeta-maker.github.io/wdd231/chamber/images/business1.webp">
     <meta property="og:url" content="https://reeta-maker.github.io/wdd231/chamber/directory.html">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- JavaScript -->
+    <script src="scripts/directory.js" defer></script>
+
 </head>
 
 <body>
+
     <header>
         <div class="header-content">
             <p class="site-name">Chamber of Commerce</p>
             <button id="menu-button" aria-label="Open navigation menu">☰</button>
         </div>
+
         <nav id="navigation">
             <a href="../index.html">Home</a>
             <a href="directory.html" class="active">Directory</a>
@@ -57,7 +71,6 @@
         <p>Last Modified: <span id="last-modified"></span></p>
     </footer>
 
-    <script src="scripts/directory.js" defer></script>
 </body>
 
 </html>
