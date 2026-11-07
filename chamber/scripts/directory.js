@@ -51,8 +51,17 @@ function displayMembers(members) {
         const phone = document.createElement("p");
         phone.textContent = `Phone: ${member.phone}`;
 
+        // Display the membership name
         const membership = document.createElement("p");
-        membership.textContent = `Membership: ${member.membership}`;
+
+        const membershipNames = {
+            1: "Member",
+            2: "Silver",
+            3: "Gold"
+        };
+
+        membership.textContent =
+            `Membership: ${membershipNames[member.membership] || "Member"}`;
 
         const website = document.createElement("a");
         website.href = member.website;

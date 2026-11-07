@@ -20,8 +20,10 @@ header {
     gap: 1rem;
 }
 
-header h1 {
-    font-size: 1.4rem;
+main h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #17365d;
 }
 
 #menu-button {

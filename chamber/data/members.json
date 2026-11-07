@@ -5,7 +5,7 @@
         "phone": "",
         "website": "https://rulecoffee.jp/",
         "image": "images/business1.webp",
-        "membership": "Gold"
+        "membership": "3"
     },
     {
         "name": "Botanical & CAFE Breed",
@@ -13,7 +13,7 @@
         "phone": "0476-73-6030",
         "website": "https://breedtaieikaen.com",
         "image": "images/business2.webp",
-        "membership": "Silver"
+        "membership": "2"
     },
     {
         "name": "Fa-So-La",
@@ -21,7 +21,7 @@
         "phone": "",
         "website": "https://www.Fasola.jp/en/",
         "image": "images/business3.webp",
-        "membership": "Gold"
+        "membership": "3"
     },
     {
         "name": "Hanko-ya-san 21 Narita",
@@ -37,7 +37,7 @@
         "phone": "0476-29-6160",
         "website": "https://www.skylark.co.jp/gusto/",
         "image": "images/business5.webp",
-        "membership": "Silver"
+        "membership": "2"
     },
     {
         "name": "Narita Beyond",
@@ -45,7 +45,7 @@
         "phone": "",
         "website": "https://narita-beyond.jp/en/company",
         "image": "images/business6.webp",
-        "membership": "Gold"
+        "membership": "3"
     },
     {
         "name": "TANI FISH FARM",
