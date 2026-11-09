@@ -35,3 +35,34 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Homepage larger screen layout */
+@media screen and (min-width: 38rem) {
+
+    /* Hero image */
+    .hero img {
+        height: 400px;
+    }
+
+    /* Member spotlights */
+    #spotlight-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Weather forecast */
+    #weather-forecast {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 64rem) {
+
+    .hero img {
+        height: 450px;
+    }
+
+    #spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Welcome to the Narita Chamber of Commerce. Discover local businesses, community events, and opportunities in Narita, Japan.">
+    <meta name="author" content="Reeta Pun">
+
+    <title>Home | Narita Chamber of Commerce</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title" content="Narita Chamber of Commerce">
+    <meta property="og:description" content="Discover Narita businesses, events, and community opportunities.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://reeta-maker.github.io/wdd231/chamber/images/business1.webp">
+    <meta property="og:url" content="https://reeta-maker.github.io/wdd231/chamber/index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/home.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <p class="site-name">Chamber of Commerce</p>
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        </div>
+
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Directory</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Welcome to Narita Chamber of Commerce</h1>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/hero.webp" alt="Beautiful view of Narita, Japan">
+            <a href="join.html" class="join-button">Join the Chamber</a>
+        </section>
+
+        <!-- Current Events -->
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Discover upcoming events and activities in our Narita community.</p>
+            <div id="events-container">
+                <article class="event-card">
+                    <h3>Naritasan Park Autumn Leaves Festival</h3>
+                    <p><strong>Date:</strong> November 14-29, 2026</p>
+                    <p>
+                        Enjoy the beautiful autumn leaves, traditional music
+                        performances, and tea ceremonies at Naritasan Park.
+                    </p>
+                    <p><strong>Location:</strong> Naritasan Park, Narita</p>
+                </article>
+
+                <article class="event-card">
+                    <h3>NARITA Christmas Marche 2026</h3>
+                    <p><strong>Date:</strong> December 12-13, 2026</p>
+                    <p>
+                        Enjoy local food, food trucks, children's workshops,
+                        and festive performances.
+                    </p>
+                    <p><strong>Location:</strong> Soyora Narita New Town</p>
+                </article>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- Weather -->
+        <section class="weather">
+            <h2>Weather</h2>
+            <div id="current-weather">
+                <p>Loading current weather...</p>
+            </div>
+
+            <h3>Three-Day Forecast</h3>
+            <div id="weather-forecast">
+                <p>Loading forecast...</p>
+            </div>
+        </section>
+
+        <!-- Company Spotlights -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container">
+                <p>Loading member spotlights...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Chamber of Commerce</p>
+        <p>WDD 231 | Reeta Pun</p>
+        <p>&copy; <span id="current-year"></span> Chamber of Commerce</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+
+</html>
