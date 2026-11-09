@@ -163,13 +163,17 @@ HOMEPAGE STYLES
 }
 
 .join-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
     display: inline-block;
     background-color: #17365d;
     color: white;
     text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
-    margin-top: 1rem;
     font-weight: bold;
 }
 
@@ -235,22 +239,4 @@ HOMEPAGE STYLES
     background-color: #f4f6f8;
     padding: 1rem;
     border-radius: 6px;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.join-button {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
 }
