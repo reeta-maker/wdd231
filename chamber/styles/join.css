@@ -49,18 +49,18 @@ JOIN & THANK YOU PAGE STYLES
 
 /* Submit Button (Matches .join-button in small.css) */
 .submit-btn {
-    background-color: #17365d !important;
-    color: white !important;
+    background-color: #17365d;
+    color: white;
     font-weight: bold;
-    border: none !important;
-    padding: 0.85rem !important;
+    border: none;
+    padding: 0.85rem;
     margin-top: 0.5rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .submit-btn:hover {
-    background-color: #315b88 !important;
+    background-color: #315b88;
 }
 
 /* Membership Level Cards */
