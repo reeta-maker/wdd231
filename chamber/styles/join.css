@@ -1,0 +1,187 @@
+/* =========================
+JOIN & THANK YOU PAGE STYLES
+========================= */
+
+/* Layout: Form on top on small screens, side-by-side on large screens */
+.join-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Form Container Card */
+.join-form {
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.join-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #17365d;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.65rem;
+    margin-top: 0.35rem;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background-color: #f4f6f8;
+    box-sizing: border-box;
+}
+
+.join-form input:focus,
+.join-form select:focus,
+.join-form textarea:focus {
+    outline: 2px solid #315b88;
+    background-color: white;
+}
+
+/* Submit Button (Matches .join-button in small.css) */
+.submit-btn {
+    background-color: #17365d !important;
+    color: white !important;
+    font-weight: bold;
+    border: none !important;
+    padding: 0.85rem !important;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #315b88 !important;
+}
+
+/* Membership Level Cards */
+.membership-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: 4px solid #17365d;
+    border-radius: 6px;
+    padding: 1.2rem;
+    text-align: center;
+    /* Initial page load animation */
+    animation: slideFadeIn 0.8s ease-out forwards;
+}
+
+.card h3 {
+    color: #17365d;
+    margin: 0 0 0.4rem 0;
+}
+
+.card p {
+    margin: 0.4rem 0;
+}
+
+.card button {
+    margin-top: 0.6rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #17365d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #315b88;
+}
+
+/* Simple Keyframes for Initial Page Load */
+@keyframes slideFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HTML Dialog Modals */
+dialog:not([open]) {
+    display: none;
+}
+
+dialog[open] {
+    display: block;
+    background-color: white;
+    color: #222;
+    border: 2px solid #17365d;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 420px;
+    width: 90%;
+}
+
+dialog h3 {
+    color: #17365d;
+    margin-top: 0;
+}
+
+dialog ul {
+    text-align: left;
+    padding-left: 1.2rem;
+}
+
+dialog::backdrop {
+    background-color: rgba(23, 54, 93, 0.55);
+}
+
+.close-modal {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #17365d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    background-color: #315b88;
+}
+
+/* Thank You Page Results Card */
+#results {
+    text-align: left;
+    max-width: 600px;
+    margin: 1.5rem auto;
+}
+
+/* Larger Screens: Form on left, Membership Cards on right */
+@media only screen and (min-width: 38rem) {
+    .join-layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .join-form {
+        flex: 2;
+    }
+
+    .membership-cards {
+        flex: 1;
+    }
+}
