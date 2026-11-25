@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WDD 231 Project Site Plan for Diamond Narita, a Nepali community organization in Narita, Japan.">
+    <meta name="author" content="Diamond Narita Web Developer">
+    <title>Site Plan | Diamond Narita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/projectlogo.png" alt="Diamond Narita Crest Logo" class="logo">
+            <div>
+                <h1>Diamond Narita — Project Site Plan</h1>
+                <p class="tagline">“We shine together” • Since 2021 • Narita, Japan</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Site Name & Logo -->
+        <section class="card">
+            <h2>1. Site Name &amp; Logo</h2>
+            <p><strong>Site Name:</strong> Diamond Narita (Proposed domain: <code>diamondnarita.org</code>)</p>
+            <p><strong>Rationale:</strong> Diamond Narita is an active, growing Nepali community organization founded in
+                2021 in Narita, Japan. The crest logo features a royal blue and Nepali crimson shield topped with a
+                crown, a central diamond, the motto <em>“We shine together”</em>, and the traditional sun and moon
+                emblems from the flag of Nepal symbolizing unity, strength, and cultural pride among Nepali residents
+                living in Narita.</p>
+        </section>
+
+        <!-- 2. Site Purpose -->
+        <section class="card">
+            <h2>2. Site Purpose</h2>
+            <p>The purpose of this three page website is to serve as the central digital hub for Diamond Narita bringing
+                together and supporting Nepali residents in Narita, Japan through local football tournaments, Nepali
+                movie screenings, and mutual community aid. It showcases past program highlights using authentic
+                community photography while enabling members to explore upcoming events and register online.</p>
+        </section>
+
+        <!-- 3. Target Audience & Scenarios -->
+        <section class="card">
+            <h2>3. Target Audience &amp; Scenarios</h2>
+            <p><strong>Target Audience:</strong> Nepali students, workers, families, and sports enthusiasts living in
+                Narita and neighboring Chiba areas who want to stay connected with local cultural events, sports
+                tournaments, and peer support networks.</p>
+            <h3>Key Visitor Scenarios</h3>
+            <ul>
+                <li><strong>Scenario 1:</strong> “What upcoming programs, Nepali movie screenings, or community events
+                    are happening in Narita this month?”</li>
+                <li><strong>Scenario 2:</strong> “When and where is the next local football tournament, and how do I
+                    register my team?”</li>
+                <li><strong>Scenario 3:</strong> “How can I become a member of Diamond Narita or request local community
+                    support in Narita?”</li>
+            </ul>
+        </section>
+
+        <!-- 4. Color Schema -->
+        <section class="card">
+            <h2>4. Color Schema</h2>
+            <p>Extracted directly from the Diamond Narita crest logo to ensure brand consistency and WCAG AA contrast
+                compliance:</p>
+            <div class="color-grid">
+                <div class="swatch primary-blue">
+                    <strong>Primary: Royal Shield Blue</strong>
+                    <span>#004B8D</span>
+                    <small>Header, navigation bar, footer background</small>
+                </div>
+                <div class="swatch accent-crimson">
+                    <strong>Accent: Nepali Crimson</strong>
+                    <span>#9B0000</span>
+                    <small>Primary CTA buttons, active filter tabs, H2 accents</small>
+                </div>
+                <div class="swatch dark-navy">
+                    <strong>Dark Accent: Deep Navy</strong>
+                    <span>#002855</span>
+                    <small>Hover states, borders, subheadings</small>
+                </div>
+                <div class="swatch bg-light">
+                    <strong>Background &amp; Text</strong>
+                    <span>#F8FAFC / #1F2937</span>
+                    <small>Page canvas (#F8FAFC), card surfaces (#FFFFFF), body text (#1F2937)</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Typography -->
+        <section class="card">
+            <h2>5. Typography</h2>
+            <ul>
+                <li><strong>Headings &amp; Navigation (<code>Montserrat</code>, Weights 600 &amp; 700):</strong>
+                    Selected to match the clean, athletic geometric sans-serif lettering inside the Diamond Narita
+                    crest.</li>
+                <li><strong>Body Copy, Event Cards &amp; Forms (<code>Open Sans</code>, Weights 400 &amp; 600):</strong>
+                    Chosen for high legibility across desktop and mobile screens when reading event schedules, past
+                    movie recaps, and registration forms.</li>
+            </ul>
+        </section>
+
+        <!-- 6. Site Architecture & Media Plan -->
+        <section class="card">
+            <h2>6. Site Architecture &amp; Media Plan</h2>
+            <ul>
+                <li><strong>Home Page (<code>index.html</code>):</strong> Features a hero banner with real Diamond
+                    Narita event photography, the organization's story since 2021, community mission pillars, and
+                    featured upcoming programs.</li>
+                <li><strong>Activities &amp; Events Page (<code>events.html</code>):</strong> Dynamically renders 15+
+                    past and upcoming football tournaments, Nepali movie screenings, and community aid drives from a
+                    JSON file, complete with category filters, <code>localStorage</code> saved favorites, and detail
+                    modals.</li>
+                <li><strong>Join &amp; Community Support Page (<code>join.html</code> +
+                        <code>thankyou.html</code>):</strong> Provides an accessible HTML form for club membership,
+                    sports/movie registration, or community assistance requests, passing submitted details to a
+                    confirmation page.</li>
+                <li><strong>Photography Asset Plan:</strong> Original photos from Diamond Narita's past tournaments,
+                    movie nights, and community programs will be optimized into <code>.webp</code> format with lazy
+                    loading for fast performance.</li>
+            </ul>
+        </section>
+
+        <!-- 7. Wireframes -->
+        <section class="card">
+            <h2>7. Home Page Wireframes (Mobile &amp; Desktop)</h2>
+            <p>Low-fidelity skeletal layouts illustrating responsive content flow across mobile (320px+) and desktop
+                (1024px+) viewports:</p>
+            <div class="wireframe-grid">
+                <figure>
+                    <img src="images/mobile.png" alt="Mobile Home Page Wireframe for Diamond Narita">
+                    <figcaption><strong>Mobile View:</strong> Single-column stack with hamburger menu, hero CTA,
+                        story/mission cards, and stacked preview.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/desktop.png" alt="Desktop Home Page Wireframe for Diamond Narita">
+                    <figcaption><strong>Desktop View:</strong> Horizontal navigation bar, full-width hero banner,
+                        2-column story/mission split, and 3-column program grid.</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year">2026</span> Diamond Narita | WDD 231 Project Site Plan</p>
+    </footer>
+</body>
+
+</html>
