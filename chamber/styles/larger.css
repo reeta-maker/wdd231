@@ -66,3 +66,25 @@
     }
 
 }
+
+/* Large screens: 1025px and above */
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "card1 card1 card2 card3"
+            "card4 card5 card6 card6"
+            "card7 card7 card8 card8";
+    }
+
+    /* Desktop-only image hover effect */
+    .discover-card img {
+        transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.04);
+        filter: contrast(1.08) saturate(1.15);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    }
+}

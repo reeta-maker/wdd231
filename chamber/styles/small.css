@@ -240,3 +240,75 @@ HOMEPAGE STYLES
     padding: 1rem;
     border-radius: 6px;
 }
+
+/* Small screens: 320px to 640px (no image hover effect) */
+.discover-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.visit-banner {
+    background-color: #f0f4f8;
+    border-left: 4px solid #1d4ed8;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    min-height: 1.6rem;
+    /* Prevents banner text from pushing cards down */
+}
+
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    min-height: 1800px;
+    /* Keeps footer below the fold while JS builds cards */
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+.discover-card {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.discover-card figure {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 6px;
+    aspect-ratio: 3 / 2;
+    /* Matches width="300" height="200" to prevent image shift */
+}
+
+.discover-card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discover-card address {
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #374151;
+}
+
+.discover-card button {
+    margin-top: auto;
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

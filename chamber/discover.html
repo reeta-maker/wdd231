@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Discover Narita's local landmarks, cultural sites, parks, and community highlights through the Narita Chamber of Commerce.">
+    <meta name="author" content="Reeta Pun">
+
+    <title>Discover Narita | Chamber of Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 1025px)">
+
+    <!-- Open Graph metadata -->
+    <meta property="og:title" content="Discover Narita | Chamber of Commerce">
+    <meta property="og:description"
+        content="Explore Narita's historic temples, scenic parks, local markets, and regional attractions with the Narita Chamber of Commerce.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://reeta-maker.github.io/wdd231/chamber/images/narita-og.webp">
+    <meta property="og:url" content="https://reeta-maker.github.io/wdd231/chamber/discover.html">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript (ES Module) -->
+    <script type="module" src="scripts/discover.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <p class="site-name">Chamber of Commerce</p>
+            <button id="menu-button" aria-label="Open navigation menu">☰</button>
+        </div>
+
+        <nav id="navigation">
+            <a href="../index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="discover.html" class="active">Discover</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main class="discover-main">
+        <h1>Discover Narita</h1>
+
+        <aside id="visit-message" class="visit-banner" aria-live="polite"></aside>
+
+        <section id="discover-grid" class="discover-grid" aria-label="Narita points of interest">
+            <!-- 8 cards populated by discover.js -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Chamber of Commerce</p>
+        <p>WDD 231 | Reeta Pun</p>
+        <p>&copy; <span id="current-year"></span> Chamber of Commerce</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+
+</html>
