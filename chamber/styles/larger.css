@@ -72,9 +72,8 @@
     .discover-grid {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
-            "card1 card1 card2 card3"
-            "card4 card5 card6 card6"
-            "card7 card7 card8 card8";
+            "card1 card2 card3 card4"
+            "card5 card6 card7 card8";
     }
 
     /* Desktop-only image hover effect */

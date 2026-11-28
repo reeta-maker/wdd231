@@ -1,10 +1,11 @@
 /* Medium screens: 641px to 1024px */
-.discover-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-        "card1 card1"
-        "card2 card3"
-        "card4 card4"
-        "card5 card6"
-        "card7 card8";
+@media (min-width: 641px) {
+    .discover-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
 }
